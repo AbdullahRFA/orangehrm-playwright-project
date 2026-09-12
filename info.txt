@@ -1,0 +1,39 @@
+
+
+
+npx playwright test tests/q1-invalid-login.spec.ts --project=chromium --headed --workers=1
+
+
+
+
+
+
+npx playwright test tests/q2-add-employee.spec.ts --project=chromium --headed --workers=1
+
+npx playwright test tests/q3-admin-edit-user.spec.ts --project=chromium --headed --workers=1
+
+npx playwright test tests/q4-leave-navigation.spec.ts --project=chromium --headed --workers=1
+
+
+npx playwright test --project=chromium --workers=1
+
+
+
+
+
+npx playwright show-report
+
+
+
+npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
+
+
+
+
+
+
+npx newman run API_Automation/OrangeHRM_API_Assignment.postman_collection.json \
+-e API_Automation/OrangeHRM_API_Environment.postman_environment.json \
+-r cli,html \
+--reporter-html-export reports/newman-report.html

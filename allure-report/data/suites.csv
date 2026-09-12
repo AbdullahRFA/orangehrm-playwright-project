@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","22996","Q3 - Search, edit status, refresh and verify persistence","chromium","2026-09-12","passed","2026-09-12","","q3-admin-edit-user.spec.ts","",""
+"","1614","has title","chromium","2026-09-12","passed","2026-09-12","","example.spec.ts","",""
+"","1332","get started link","chromium","2026-09-12","passed","2026-09-12","","example.spec.ts","",""
+"","28621","Q4 - Assign Leave, verify in Leave List and cancel","chromium","2026-09-12","skipped","2026-09-12","","q4-leave-navigation.spec.ts","",""
+"","21945","Q2 - Add a new employee and verify from Employee List","chromium","2026-09-12","passed","2026-09-12","","q2-add-employee.spec.ts","",""
+"","13476","Q1 - Invalid login should display error message","chromium","2026-09-12","passed","2026-09-12","","q1-invalid-login.spec.ts","",""
